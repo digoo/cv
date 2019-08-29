@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Routes from './routes';
+
 import GlobalStyle from './styles/global';
 
 import home from './assets/images/home.svg';
@@ -11,6 +13,7 @@ import avatar from './assets/images/avatar.png';
 import aRodrigo from './assets/images/aRodrigo.jpg';
 import banner from './assets/images/Banner.jpg';
 import more from './assets/images/more.svg';
+import email from './assets/images/url.svg';
 import place from './assets/images/place.svg';
 import linkedln from './assets/images/linkedin.svg';
 import whatsapp from './assets/images/whatsapp.svg';
@@ -18,14 +21,14 @@ import github from './assets/images/github.svg';
 import born from './assets/images/born.svg';
 import images from './assets/images/images.svg';
 
-import selfEmployed from './assets/images/selfEmployed.png';
-import ericsson from './assets/images/Ericsson.png';
-import white from './assets/images/white.png';
+// import selfEmployed from './assets/images/selfEmployed.png';
+// import ericsson from './assets/images/Ericsson.png';
+// import white from './assets/images/white.png';
 
-import comments from './assets/images/comments.svg';
-import retweet from './assets/images/retweet.svg';
-import like from './assets/images/like.svg';
-import message2 from './assets/images/message2.svg';
+// import comments from './assets/images/comments.svg';
+// import retweet from './assets/images/retweet.svg';
+// import like from './assets/images/like.svg';
+// import message2 from './assets/images/message2.svg';
 
 import followers from './assets/images/followers.svg';
 import comunikime from './assets/images/comunikimeT.png';
@@ -121,6 +124,13 @@ export default function App() {
                 <img src={place} alt="Place" /> São Paulo, Brazil
               </li>
               <li>
+                <img src={email} alt="email" />{' '}
+                <a href="mailto:rocostalopes@gmail.com">
+                  {' '}
+                  rocostalopes@gmail.com
+                </a>
+              </li>
+              <li>
                 <img src={linkedln} alt="Linkedln" />{' '}
                 <a
                   href="https://www.linkedin.com/in/rodlop/"
@@ -209,190 +219,7 @@ export default function App() {
             </div>
           </aside>
 
-          <section className="timeline">
-            <nav>
-              <a href="/" className="active">
-                Experiência
-              </a>
-              <a href="/">Educação</a>
-              <a href="/">Portfólio</a>
-            </nav>
-
-            <ul className="tweets">
-              <li>
-                <img src={selfEmployed} alt="selfEmployed" />
-                <div className="tweet">
-                  <strong>
-                    FullStack Web Developer
-                    <span>
-                      {' '}
-                      Jul 2019 - Presente - 2 meses
-                      <br />
-                      Brazil
-                    </span>
-                  </strong>
-                  {/* prettier-ignore */}
-                  <p>
-                    Criando Websites e Android/Iphone Apps com JavaScript (es5,
-                    es6) avançado (NodeJS como back-end, ReactJS como front-end
-                    e React-Native como mobile).
-                    <br/>
-                    <br/>
-                    Além disso usando:<br/><br/>
-                    - Git<br/>
-                    - Github<br/>
-                    - Kubernetes<br/>
-                    - Docker/Container<br/>
-                    - Jenkins<br/>
-                    - Npm<br/>
-                    - Yarn<br/>
-                    - CSS<br/>
-                    - CSS flexbox<br/>
-                    - SSR<br/>
-                    - Flux<br/>
-                    - React-hooks<br/>
-                    - AdonisJS<br/>
-                    - SaaS<br/>
-                    - Server-side rendering<br/>
-                    - Ui-Proto<br/>
-                    - Payment Methods with NodeJS<br/>
-                    - Geo location and maps
-                  </p>
-                  <div className="actions">
-                    <a href="/">
-                      <img src={comments} alt="Comments" /> 3
-                    </a>
-                    <a href="/">
-                      <img src={retweet} alt="retweet" /> 4
-                    </a>
-                    <a href="/">
-                      <img src={like} alt="like" /> 5
-                    </a>
-                    <a href="/">
-                      <img src={message2} alt="message" /> 33
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <img src={ericsson} alt="Ericsson" />
-                <div className="tweet">
-                  <strong>
-                    Ericsson
-                    <span>
-                      <br />8 Anos 4 meses
-                    </span>
-                  </strong>
-                  <p />
-                </div>
-              </li>
-              <li>
-                <img src={white} alt="Branco" />
-                <div className="tweet">
-                  <strong>
-                    QA Automation Developer/Engineer <br />
-                    <span>
-                      {' '}
-                      Dez 2012 – Abr 2019 Duração 6 anos 5 meses <br />
-                      São Paulo, Brazil
-                    </span>
-                  </strong>
-                  {/* prettier-ignore */}
-                  <p>
-                  Acting as coreloop driver on devops environment guaranteeing quality, performance and good
-                  results, creating daily/weekly report for daily/weekly meeting. <br/>
-                  <br/>
-                  In constant communication with sites around the world like as Campinas, São Jose dos Campos,
-                  Frankfurt, Chennai and so on.<br/>
-                  <br/>
-                  Providing training, driving concepts, opening trouble reports (aka. problem note) and acting reviewer
-                  of automation code on Gerrit platform. <br/>
-                  </p>
-                  <div className="actions">
-                    <a href="/">
-                      <img src={comments} alt="Comments" /> 3
-                    </a>
-                    <a href="/">
-                      <img src={retweet} alt="retweet" /> 4
-                    </a>
-                    <a href="/">
-                      <img src={like} alt="like" /> 5
-                    </a>
-                    <a href="/">
-                      <img src={message2} alt="message" />
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <img src={white} alt="Branco" />
-                <div className="tweet">
-                  <strong>
-                    QA Tester Engineer <br />
-                    <span>
-                      {' '}
-                      Dez 2012 – Mar 2014 Duração 1 anos 4 meses <br />
-                      São Paulo
-                    </span>
-                  </strong>
-                  {/* prettier-ignore */}
-                  <p>
-                  Working with different agile teams and performing unit test, integration test, e2e test and
-                  automated test on CBIO/BSCS interface (C++, C#, java, Python) for all project around the world
-                  where CBIO/BSCS were implemented from Fullstack to Customer projects.
-                  </p>
-                  <div className="actions">
-                    <a href="/">
-                      <img src={comments} alt="Comments" /> 3
-                    </a>
-                    <a href="/">
-                      <img src={retweet} alt="retweet" /> 4
-                    </a>
-                    <a href="/">
-                      <img src={like} alt="like" /> 5
-                    </a>
-                    <a href="/">
-                      <img src={message2} alt="message" />
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <img src={white} alt="Branco" />
-                <div className="tweet">
-                  <strong>
-                    Trainee <br />
-                    <span>
-                      {' '}
-                      Jan 2011 – Dec 2012 Duração 2 anos <br />
-                      São Paulo e Região, Brasil
-                    </span>
-                  </strong>
-                  {/* prettier-ignore */}
-                  <p>
-                  To make the difference, above all. empower the project with my knowledge to improve the time slice
-                  against the clock and the major requests of the managers. To Test the given releases with most
-                  powerful software of the market and give maintenance when necessary to all customer releases with
-                  efficiency and agility.
-                  </p>
-                  <div className="actions">
-                    <a href="/">
-                      <img src={comments} alt="Comments" /> 3
-                    </a>
-                    <a href="/">
-                      <img src={retweet} alt="retweet" /> 4
-                    </a>
-                    <a href="/">
-                      <img src={like} alt="like" /> 5
-                    </a>
-                    <a href="/">
-                      <img src={message2} alt="message" />
-                    </a>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </section>
+          <Routes />
 
           <aside className="widgets">
             <div className="widget follow">
