@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0944f2f8958175afc2f1859fcc832e54",
+    "revision": "86171e3fc72b0ab5a5415fff8504c407",
     "url": "/cv/index.html"
   },
   {
-    "revision": "77d61dfa7706365d1880",
-    "url": "/cv/static/js/2.fe275dcc.chunk.js"
+    "revision": "4dbec07922669d2d48c2",
+    "url": "/cv/static/js/2.0a58cc89.chunk.js"
   },
   {
-    "revision": "33b16a0351e4813ce33d",
-    "url": "/cv/static/js/main.38aacac4.chunk.js"
+    "revision": "771b54c47b8b5d1ea917",
+    "url": "/cv/static/js/main.56852a0c.chunk.js"
   },
   {
     "revision": "9de11688f3f3e719fc9b",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "29360e7857aa7c5c358c7c5a545a373a",
     "url": "/cv/static/media/avatarDigo.29360e78.jpg"
+  },
+  {
+    "revision": "265f550b9deabe795f5a8adff9fa0a64",
+    "url": "/cv/static/media/axis_school.265f550b.svg"
   },
   {
     "revision": "e2e14f08707719d609ed618e1a5edd82",
@@ -108,8 +112,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cv/static/media/search.6f5bf574.svg"
   },
   {
+    "revision": "13078d3724fd881a36204970293c49d1",
+    "url": "/cv/static/media/udemy.13078d37.png"
+  },
+  {
+    "revision": "41deeda30892deed1e9df8cb8e7c0e15",
+    "url": "/cv/static/media/unip.41deeda3.png"
+  },
+  {
     "revision": "527901b9ca93ac2da451dfdc33d15445",
     "url": "/cv/static/media/url.527901b9.svg"
+  },
+  {
+    "revision": "b3303c250c5245916b8ec7282ef5215a",
+    "url": "/cv/static/media/usp.b3303c25.jpg"
   },
   {
     "revision": "f98d31800f994d67c994d5752520c7d6",

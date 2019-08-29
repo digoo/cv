@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.js": "/cv/static/js/main.38aacac4.chunk.js",
-    "main.js.map": "/cv/static/js/main.38aacac4.chunk.js.map",
+    "main.js": "/cv/static/js/main.56852a0c.chunk.js",
+    "main.js.map": "/cv/static/js/main.56852a0c.chunk.js.map",
     "runtime~main.js": "/cv/static/js/runtime~main.2485d320.js",
     "runtime~main.js.map": "/cv/static/js/runtime~main.2485d320.js.map",
-    "static/js/2.fe275dcc.chunk.js": "/cv/static/js/2.fe275dcc.chunk.js",
-    "static/js/2.fe275dcc.chunk.js.map": "/cv/static/js/2.fe275dcc.chunk.js.map",
+    "static/js/2.0a58cc89.chunk.js": "/cv/static/js/2.0a58cc89.chunk.js",
+    "static/js/2.0a58cc89.chunk.js.map": "/cv/static/js/2.0a58cc89.chunk.js.map",
     "index.html": "/cv/index.html",
-    "precache-manifest.54c72b7e745841bf3f7f16baa141cf93.js": "/cv/precache-manifest.54c72b7e745841bf3f7f16baa141cf93.js",
+    "precache-manifest.6a4d620445437b64325c678941164072.js": "/cv/precache-manifest.6a4d620445437b64325c678941164072.js",
     "service-worker.js": "/cv/service-worker.js",
     "static/media/Banner.jpg": "/cv/static/media/Banner.ded805e4.jpg",
     "static/media/aRodrigo.jpg": "/cv/static/media/aRodrigo.0f276b9e.jpg",
     "static/media/addfriend.svg": "/cv/static/media/addfriend.43a084ee.svg",
     "static/media/avatar.png": "/cv/static/media/avatar.2288ae6c.png",
     "static/media/avatarDigo.jpg": "/cv/static/media/avatarDigo.29360e78.jpg",
+    "static/media/axis_school.svg": "/cv/static/media/axis_school.265f550b.svg",
     "static/media/born.svg": "/cv/static/media/born.e2e14f08.svg",
     "static/media/comments.svg": "/cv/static/media/comments.3adaceb7.svg",
     "static/media/comunikimeT.png": "/cv/static/media/comunikimeT.4c98b3ff.png",
@@ -32,7 +33,10 @@
     "static/media/reactjs.png": "/cv/static/media/reactjs.3d67b80e.png",
     "static/media/retweet.svg": "/cv/static/media/retweet.978cc68b.svg",
     "static/media/search.svg": "/cv/static/media/search.6f5bf574.svg",
+    "static/media/udemy.png": "/cv/static/media/udemy.13078d37.png",
+    "static/media/unip.png": "/cv/static/media/unip.41deeda3.png",
     "static/media/url.svg": "/cv/static/media/url.527901b9.svg",
+    "static/media/usp.jpg": "/cv/static/media/usp.b3303c25.jpg",
     "static/media/whatsapp.svg": "/cv/static/media/whatsapp.f98d3180.svg"
   }
 }
