@@ -47,16 +47,16 @@ export default function Express() {
             Aprendendo JavaScript (Node.js, ReactJS, React-Native, Flux, React Hooks ) - CSS com Flexbox, SSR com ReactJS, Proto UI, Animação com ReactNative, metodo de pagamento com Node.js, Geo e Mapas, Kubernetes, OmniStack SaaS, AdonisJS, Offline-First, Testes, Testes automatizados.
                   </p>
             <div className="actions">
-              <a href="/">
+              <a href="/cv/">
                 <img src={comments} alt="Comments" /> 23
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={retweet} alt="retweet" /> 12
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={like} alt="like" /> +999
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={message2} alt="message" /> 1
               </a>
             </div>
@@ -77,16 +77,16 @@ export default function Express() {
             {/* prettier-ignore */}
             <p>Learning Java at Udemy from basic to expert.Learning Java at Udemy from basic to expert.</p>
             <div className="actions">
-              <a href="/">
+              <a href="/cv/">
                 <img src={comments} alt="Comments" /> 4
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={retweet} alt="retweet" /> 22
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={like} alt="like" /> 66
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={message2} alt="message" /> 4
               </a>
             </div>
@@ -107,16 +107,16 @@ export default function Express() {
             {/* prettier-ignore */}
             <p>Bacharel em sistema de informação</p>
             <div className="actions">
-              <a href="/">
+              <a href="/cv/">
                 <img src={comments} alt="Comments" /> 1
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={retweet} alt="retweet" /> 7
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={like} alt="like" /> 42
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={message2} alt="message" /> 1
               </a>
             </div>
@@ -137,16 +137,16 @@ export default function Express() {
             {/* prettier-ignore */}
             <p>Curso de melhoramento técnico com certificado</p>
             <div className="actions">
-              <a href="/">
+              <a href="/cv/">
                 <img src={comments} alt="Comments" /> 1
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={retweet} alt="retweet" /> 0
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={like} alt="like" /> 7
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={message2} alt="message" /> 2
               </a>
             </div>
@@ -170,16 +170,16 @@ export default function Express() {
             2 - Montagem de cenários com Unreal 4 <br/>
             3 - Do zero ao avançado em Unreal</p>
             <div className="actions">
-              <a href="/">
+              <a href="/cv/">
                 <img src={comments} alt="Comments" /> 3
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={retweet} alt="retweet" /> 4
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={like} alt="like" /> 99
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={message2} alt="message" /> 0
               </a>
             </div>
@@ -200,16 +200,16 @@ export default function Express() {
             {/* prettier-ignore */}
             <p>Curso para iniciantes (photoshop, Maya, Unreal, etc)</p>
             <div className="actions">
-              <a href="/">
+              <a href="/cv/">
                 <img src={comments} alt="Comments" /> 2
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={retweet} alt="retweet" /> 1
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={like} alt="like" /> 3
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={message2} alt="message" /> 4
               </a>
             </div>
@@ -230,16 +230,16 @@ export default function Express() {
             {/* prettier-ignore */}
             <p>Certificação internacional de tester, sem validade final</p>
             <div className="actions">
-              <a href="/">
+              <a href="/cv/">
                 <img src={comments} alt="Comments" /> 2
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={retweet} alt="retweet" /> 1
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={like} alt="like" /> 3
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={message2} alt="message" /> 4
               </a>
             </div>

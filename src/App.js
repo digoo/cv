@@ -163,6 +163,16 @@ export default function App() {
               <li>
                 <img src={born} alt="Born" /> Born the 12th of the November 1988
               </li>
+              <li>
+                <img src={github} alt="Github" />
+                <a
+                  href="https://github.com/digoo/cv/tree/master/src"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Source code
+                </a>
+              </li>
             </ul>
 
             <div className="widget followers">
@@ -225,8 +235,8 @@ export default function App() {
             <div className="widget follow">
               <div className="title">
                 <strong>Who to follow</strong>
-                <a href="/">Refresh</a>
-                <a href="/">View all</a>
+                <a href="/cv/">Refresh</a>
+                <a href="/cv/">View all</a>
               </div>
 
               <ul>
@@ -246,7 +256,7 @@ export default function App() {
                       <button type="button">Follow</button>
                     </div>
                   </div>
-                  <a href="/">x</a>
+                  <a href="/cv/">x</a>
                 </li>
 
                 <li>
@@ -265,7 +275,7 @@ export default function App() {
                       <button type="button">Follow</button>
                     </div>
                   </div>
-                  <a href="/">x</a>
+                  <a href="/cv/">x</a>
                 </li>
 
                 <li>
@@ -284,7 +294,7 @@ export default function App() {
                       <button type="button">Follow</button>
                     </div>
                   </div>
-                  <a href="/">x</a>
+                  <a href="/cv/">x</a>
                 </li>
                 <li className="addFriends">
                   <div className="addfriend">
@@ -298,7 +308,7 @@ export default function App() {
             <div className="widget trends">
               <div className="title">
                 <strong>Trends</strong>
-                <a href="/">Change</a>
+                <a href="/cv/">Change</a>
               </div>
 
               <ul>

@@ -62,16 +62,16 @@ export default function Express() {
                     - Geo localização e mapas
                   </p>
             <div className="actions">
-              <a href="/">
+              <a href="/cv/">
                 <img src={comments} alt="Comments" /> 3
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={retweet} alt="retweet" /> 4
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={like} alt="like" /> 5
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={message2} alt="message" /> 33
               </a>
             </div>
@@ -112,16 +112,16 @@ export default function Express() {
                   of automation code on Gerrit platform. <br/>
                   </p>
             <div className="actions">
-              <a href="/">
+              <a href="/cv/">
                 <img src={comments} alt="Comments" /> 3
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={retweet} alt="retweet" /> 4
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={like} alt="like" /> 5
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={message2} alt="message" />
               </a>
             </div>
@@ -145,16 +145,16 @@ export default function Express() {
                   where CBIO/BSCS were implemented from Fullstack to Customer projects.
                   </p>
             <div className="actions">
-              <a href="/">
+              <a href="/cv/">
                 <img src={comments} alt="Comments" /> 3
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={retweet} alt="retweet" /> 4
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={like} alt="like" /> 5
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={message2} alt="message" />
               </a>
             </div>
@@ -179,16 +179,16 @@ export default function Express() {
                   efficiency and agility.
                   </p>
             <div className="actions">
-              <a href="/">
+              <a href="/cv/">
                 <img src={comments} alt="Comments" /> 3
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={retweet} alt="retweet" /> 4
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={like} alt="like" /> 5
               </a>
-              <a href="/">
+              <a href="/cv/">
                 <img src={message2} alt="message" />
               </a>
             </div>
