@@ -73,24 +73,28 @@ export default function App() {
         <div className="content">
           <ul>
             <li className="active">
-              <span>Tweets</span>
-              <strong>3394</strong>
+              <span>About</span>
+              <strong>Me</strong>
             </li>
             <li>
-              <span>Followings</span>
-              <strong>654</strong>
+              <span>Tweets</span>
+              <strong>3654</strong>
+            </li>
+            <li>
+              <span>Following</span>
+              <strong>3387</strong>
             </li>
             <li>
               <span>Followers</span>
-              <strong>387</strong>
+              <strong>2464</strong>
             </li>
             <li>
               <span>Favorites</span>
-              <strong>264</strong>
+              <strong>345</strong>
             </li>
             <li>
               <span>Lists</span>
-              <strong>8</strong>
+              <strong>1</strong>
             </li>
             <li>
               <span>Moments</span>
