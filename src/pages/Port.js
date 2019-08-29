@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import selfEmployed from '../assets/images/selfEmployed.png';
-import ericsson from '../assets/images/Ericsson.png';
+// import selfEmployed from '../assets/images/selfEmployed.png';
+// import ericsson from '../assets/images/Ericsson.png';
 import white from '../assets/images/white.png';
 
-import comments from '../assets/images/comments.svg';
-import retweet from '../assets/images/retweet.svg';
-import like from '../assets/images/like.svg';
-import message2 from '../assets/images/message2.svg';
+// import comments from '../assets/images/comments.svg';
+// import retweet from '../assets/images/retweet.svg';
+// import like from '../assets/images/like.svg';
+// import message2 from '../assets/images/message2.svg';
 
 export default function Express() {
   return (
