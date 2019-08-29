@@ -1,5 +1,7 @@
 import React from 'react';
+// import { Router } from 'react-router-dom';
 
+// import history from './services/history';
 import Routes from './routes';
 
 import GlobalStyle from './styles/global';
@@ -229,7 +231,9 @@ export default function App() {
             </div>
           </aside>
 
+          {/* <Router history={history}> */}
           <Routes />
+          {/* </Router> */}
 
           <aside className="widgets">
             <div className="widget follow">
