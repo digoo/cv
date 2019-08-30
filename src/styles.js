@@ -7,7 +7,7 @@ import search from './assets/images/search.svg';
 
 export const Header = styled.header`
   height: 46px;
-  width: 100vw;
+  width: 1905px;
   background: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
   position: fixed;
@@ -96,8 +96,6 @@ export const Docked = styled.div`
   height: 46px;
   background: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
-  /* position: relative;
-  z-index: -2; */
 `;
 
 //  ----------------------------------- BANNER ------------------------------------------------------
