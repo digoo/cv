@@ -201,9 +201,10 @@ export const Bar = styled.div`
 
         margin-right: 20px;
 
+        transition: background 0.4s;
+
         &:hover {
-          background: #3bb9e3;
-          color: #fff;
+          background: ${darken(0.09, '#fff')};
         }
       }
     }
@@ -521,9 +522,10 @@ export const Wrapper = styled.div`
 
                   margin-right: 20px;
 
+                  transition: background 0.4s;
+
                   &:hover {
-                    background: #3bb9e3;
-                    color: #fff;
+                    background: ${darken(0.09, '#fff')};
                   }
                 }
               }
