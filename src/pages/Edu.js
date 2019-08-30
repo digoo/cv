@@ -37,6 +37,7 @@ export default function Express() {
               Rocketseat
               <span>
                 {' '}
+                <br />
                 Melhoramento Pessoal - Tecnologia da Informação
                 <br />
                 Jun 2019 - Presente

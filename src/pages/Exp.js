@@ -29,6 +29,7 @@ export default function Express() {
               FullStack Web Developer
               <span>
                 {' '}
+                <br />
                 Jul 2019 - Presente - 2 meses
                 <br />
                 Brazil
@@ -193,6 +194,10 @@ export default function Express() {
               </a>
             </div>
           </div>
+        </li>
+        <li>
+          <img src={white} alt="white" />
+          <div className="tweet" />
         </li>
       </ul>
     </section>

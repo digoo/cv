@@ -9,7 +9,8 @@ import GlobalStyle from './styles/global';
 import home from './assets/images/home.svg';
 import notification from './assets/images/notification.svg';
 import message from './assets/images/message.svg';
-import logo from './assets/images/logo.svg';
+// import logo from './assets/images/logo.svg';
+import logo from './assets/images/cat.svg';
 import avatarDigo from './assets/images/avatarDigo.jpg';
 import avatar from './assets/images/avatar.png';
 import aRodrigo from './assets/images/aRodrigo.jpg';
@@ -38,12 +39,12 @@ import rocketseat from './assets/images/rocketseat.jpg';
 import reactjs from './assets/images/reactjs.png';
 import addfriend from './assets/images/addfriend.svg';
 
-import { Header, Banner, Bar, Wrapper } from './styles';
+import { Docked, Header, Banner, Bar, Wrapper } from './styles';
 
 export default function App() {
   return (
     <>
-      <Header id="main-header">
+      <Header>
         <div className="content">
           <nav>
             <ul>
@@ -62,19 +63,20 @@ export default function App() {
           <div className="right-side">
             <input type="text" placeholder="Search on Twitter" />
             <img src={aRodrigo} alt="Rodrigo Lopes" />
-            <button type="button">Tweet</button>
+            <button type="button">Gurrhr</button>
           </div>
         </div>
       </Header>
-
-      <Banner className="banner" img={banner}>
+      <Docked />
+      <Banner>
+        <img src={banner} alt="Banner" />
         <h1>
           Este modelo de CV foi feito com as tecnologias: ReactJS, CSS
           (styled-component)
         </h1>
       </Banner>
 
-      <Bar class="bar">
+      <Bar>
         <div className="content">
           <ul>
             <li className="active">
@@ -82,7 +84,7 @@ export default function App() {
               <strong>Me</strong>
             </li>
             <li>
-              <span>Tweets</span>
+              <span>Gurrhrs</span>
               <strong>3654</strong>
             </li>
             <li>
@@ -114,7 +116,7 @@ export default function App() {
         </div>
       </Bar>
 
-      <Wrapper class="wrapper-content">
+      <Wrapper>
         <div className="content">
           <aside className="profile">
             <img className="avatar" src={aRodrigo} alt="Rodrigo Lopes" />
@@ -231,16 +233,14 @@ export default function App() {
             </div>
           </aside>
 
-          {/* <Router history={history}> */}
           <Routes />
-          {/* </Router> */}
 
           <aside className="widgets">
             <div className="widget follow">
               <div className="title">
                 <strong>Who to follow</strong>
-                <a href="/cv/">Refresh</a>
-                <a href="/cv/">View all</a>
+                <a href="#">Refresh</a>
+                <a href="#">View all</a>
               </div>
 
               <ul>
@@ -260,7 +260,7 @@ export default function App() {
                       <button type="button">Follow</button>
                     </div>
                   </div>
-                  <a href="/cv/">x</a>
+                  <a href="#">x</a>
                 </li>
 
                 <li>
@@ -279,7 +279,7 @@ export default function App() {
                       <button type="button">Follow</button>
                     </div>
                   </div>
-                  <a href="/cv/">x</a>
+                  <a href="#">x</a>
                 </li>
 
                 <li>
@@ -298,7 +298,7 @@ export default function App() {
                       <button type="button">Follow</button>
                     </div>
                   </div>
-                  <a href="/cv/">x</a>
+                  <a href="#">x</a>
                 </li>
                 <li className="addFriends">
                   <div className="addfriend">
@@ -312,24 +312,24 @@ export default function App() {
             <div className="widget trends">
               <div className="title">
                 <strong>Trends</strong>
-                <a href="/cv/">Change</a>
+                <a href="#">Change</a>
               </div>
 
               <ul>
                 <li>
-                  <span>#SportInfoDay</span>
+                  <span>#BestOfTheDay</span>
+                </li>
+                <li>
+                  <span>#madeToHireMe</span>
+                </li>
+                <li>
+                  <span>#CheckTheSourceCode</span>
+                </li>
+                <li>
+                  <span>I&apos;dRememberWhereISawIt</span>
                 </li>
                 <li>
                   <span>#womenleaders</span>
-                </li>
-                <li>
-                  <span>#VisitesDemiciliaires</span>
-                </li>
-                <li>
-                  <span>European Parliament</span>
-                </li>
-                <li>
-                  <span>#blindgetrouwd</span>
                 </li>
                 <li>
                   <span>#UXDesign</span>
@@ -338,13 +338,13 @@ export default function App() {
                   <span>#UiDesign</span>
                 </li>
                 <li>
-                  <span>#CleanAirNow</span>
+                  <span>#AlmostThere</span>
                 </li>
               </ul>
             </div>
 
             <div className="widget link">
-              <span>© 2018 Twitter</span>
+              <span>© 2099 Meowtter</span>
               <span>À propos</span>
               <span>Centre d&apos;assistance</span>
               <span>Conditions</span>

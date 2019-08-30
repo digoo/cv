@@ -3,12 +3,15 @@ import { darken } from 'polished';
 
 import search from './assets/images/search.svg';
 
+// ------------------------------------- HEADER ---------------------------------------------------
+
 export const Header = styled.header`
   height: 46px;
+  width: 100vw;
   background: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
-  position: relative;
-  z-index: 1;
+  position: fixed;
+  z-index: 10;
 
   .content {
     display: flex;
@@ -40,6 +43,8 @@ export const Header = styled.header`
       }
     }
   }
+
+  /* ------------------------------------------- HEADER -> RIGHT SIDE ---------------------------------------------- */
 
   div.right-side {
     display: flex;
@@ -85,23 +90,43 @@ export const Header = styled.header`
   }
 `;
 
+// ------------------------------------- DOCKER ---------------------------------------------------
+// Required to maintain the HEADER at same position when position is
+export const Docked = styled.div`
+  height: 46px;
+  background: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  /* position: relative;
+  z-index: -2; */
+`;
+
+//  ----------------------------------- BANNER ------------------------------------------------------
+
 export const Banner = styled.div`
   height: 380px;
-  width: 100%;
-  background-image: url(${props => props.img});
-  background-size: 100%;
+  width: 100vw;
+  max-width: 1905px;
+  /* background-image: url(${props => props.img});
+  background-size: 1905px 380px; */
   position: relative;
-  z-index: 0;
+  /* z-index: -1; */
 
   h1 {
     color: #fff;
     position: absolute;
-    right: 10px;
+    right: 350px;
     bottom: 10px;
     font-size: 15px;
     font-weight: normal;
   }
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
 `;
+
+// ---------------------------------- BAR -----------------------------------------------
 
 export const Bar = styled.div`
   height: 59px;
