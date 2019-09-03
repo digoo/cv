@@ -6,14 +6,18 @@ import search from './assets/images/search.svg';
 // ------------------------------------- HEADER ---------------------------------------------------
 
 export const Header = styled.header`
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
   height: 46px;
-  width: 1905px;
+  width: 100%;
+  max-width: 1905px;
   background: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
   position: fixed;
   z-index: 10;
 
-  .content {
+  div.content {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,8 +37,23 @@ export const Header = styled.header`
 
         margin-left: 30px;
 
+        @media (max-width: 1080px) {
+          font-size: 12px;
+          margin-left: 20px;
+        }
+        p {
+          @media (max-width: 850px) {
+            display: none;
+          }
+        }
+
         img {
           margin-right: 7px;
+
+          @media (max-width: 1080px) {
+            height: 16px;
+            width: 16px;
+          }
         }
       }
 
@@ -42,56 +61,97 @@ export const Header = styled.header`
         margin: 0px;
       }
     }
-  }
 
-  /* ------------------------------------------- HEADER -> RIGHT SIDE ---------------------------------------------- */
+    /* ------------------------------------------- HEADER -> CENTER LOGO ---------------------------------------------- */
+    img.center {
+      @media (max-width: 250px) {
+        order: -1;
+      }
 
-  div.right-side {
-    display: flex;
-
-    input {
-      width: 220px;
-      border: 1px solid #e6ecf0;
-      height: 34px;
-      padding: 0 35px 0 12px;
-      border-radius: 16px;
-      color: #667581;
-      font-size: 12px;
-      background: #f5f8fa url(${search}) no-repeat 190px center;
+      @media (max-width: 215px) {
+        display: none;
+      }
     }
+    /* ------------------------------------------- HEADER -> RIGHT SIDE ---------------------------------------------- */
 
-    img {
-      height: 34px;
-      width: 34px;
-      border-radius: 50%;
-      margin: 0 15px;
-    }
-
-    button {
-      height: 34px;
-      background: #3bb9e3;
-
+    div.right-side {
       display: flex;
-      align-items: center;
-      justify-content: center;
 
-      width: 90px;
-      font-weight: bold;
-      font-size: 14px;
-      color: #fff;
-      border: 0;
-      border-radius: 16px;
-      transition: background 0.3s;
+      input {
+        width: 220px;
+        border: 1px solid #e6ecf0;
+        height: 34px;
+        padding: 0 35px 0 12px;
+        border-radius: 16px;
+        color: #667581;
+        font-size: 12px;
+        background: #f5f8fa url(${search}) no-repeat 190px center;
 
-      &:hover {
-        background: ${darken(0.09, '#3bb9e3')};
+        @media (max-width: 1250px) {
+          width: 140px;
+          font-size: 10px;
+          padding: 0 35px 0 12px;
+          background: #f5f8fa url(${search}) no-repeat 110px center;
+        }
+
+        @media (max-width: 850px) {
+          width: 40px;
+          font-size: 0;
+          padding: 0 0 0 0;
+          background: #f5f8fa url(${search}) no-repeat 13px center;
+        }
+
+        @media (max-width: 250px) {
+          display: none;
+        }
+      }
+
+      img {
+        height: 34px;
+        width: 34px;
+        border-radius: 50%;
+        margin: 0 15px;
+
+        @media (max-width: 330px) {
+          display: none;
+        }
+      }
+
+      button {
+        height: 34px;
+        background: #3bb9e3;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 90px;
+        font-weight: bold;
+        font-size: 14px;
+        color: #fff;
+        border: 0;
+        border-radius: 16px;
+        transition: background 0.3s;
+
+        &:hover {
+          background: ${darken(0.09, '#3bb9e3')};
+        }
+
+        @media (max-width: 600px) {
+          width: 60px;
+          font-size: 12px;
+        }
+
+        @media (max-width: 400px) {
+          display: none;
+        }
       }
     }
   }
 `;
 
 // ------------------------------------- DOCKER ---------------------------------------------------
-// Required to maintain the HEADER at same position when position is
+// Required to maintain the HEADER at same position when position is fixed
 export const Docked = styled.div`
   height: 46px;
   background: #fff;
@@ -116,11 +176,44 @@ export const Banner = styled.div`
     bottom: 10px;
     font-size: 15px;
     font-weight: normal;
+
+    @media (max-width: 1850px) {
+      right: 300px;
+    }
+
+    @media (max-width: 1750px) {
+      right: 250px;
+    }
+
+    @media (max-width: 1650px) {
+      right: 150px;
+    }
+
+    @media (max-width: 1450px) {
+      right: 50px;
+    }
+
+    @media (max-width: 1250px) {
+      right: 80px;
+      font-size: 12px;
+    }
+
+    @media (max-width: 1050px) {
+      right: 20px;
+    }
+
+    @media (max-width: 950px) {
+      bottom: 190px;
+    }
+
+    @media (max-width: 650px) {
+      display: none;
+    }
   }
 
   img {
     height: 100%;
-    width: 100%;
+    width: 100vw;
   }
 `;
 
@@ -179,10 +272,26 @@ export const Bar = styled.div`
       li.active strong {
         color: #3bb9e3;
       }
+
+      li.active {
+        @media (max-width: 750px) {
+          display: none;
+        }
+      }
+
+      li.other {
+        @media (max-width: 1000px) {
+          display: none;
+        }
+      }
     }
 
     .bar-right {
       display: flex;
+
+      @media (max-width: 650px) {
+        display: none;
+      }
 
       button {
         height: 34px;
@@ -211,12 +320,30 @@ export const Bar = styled.div`
   }
 `;
 
+// ---------------------------------- Wrapper -----------------------------------------------
+
 export const Wrapper = styled.div`
   div.content {
     display: flex;
 
+    @media (max-width: 750px) {
+      flex-direction: column;
+      flex: 1;
+    }
+
+    /* ---------------------------------- Wrapper -> Left side ----------------------------------------------- */
+
     aside.profile {
       width: 260px;
+
+      @media (max-width: 750px) {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px 0;
+        flex: 1;
+        width: calc(100vw - 117px);
+        align-items: center;
+      }
 
       img.avatar {
         width: 200px;
@@ -225,28 +352,64 @@ export const Wrapper = styled.div`
         border: 5px solid #fff;
         margin-top: -150px;
         position: relative;
+
+        @media (max-width: 215px) {
+          width: 150px;
+          height: 150px;
+          margin-top: -120px;
+        }
       }
 
       h1 {
         font-size: 21px;
         color: #1f2226;
         margin-top: 10px;
+
+        @media (max-width: 750px) {
+          margin-left: -51px;
+        }
+
+        @media (max-width: 215px) {
+          font-size: 12px;
+          margin-left: 0;
+        }
       }
 
       span {
         font-size: 14px;
         color: #53626c;
+
+        @media (max-width: 750px) {
+          margin-left: -98px;
+        }
+
+        @media (max-width: 215px) {
+          font-size: 12px;
+          margin-left: 0;
+        }
       }
 
       p {
         font-size: 14px;
         color: #1f2226;
         margin-top: 15px;
+
+        @media (max-width: 750px) {
+          margin-left: -1px;
+        }
+
+        @media (max-width: 215px) {
+          font-size: 12px;
+        }
       }
 
       ul {
         margin-top: 20px;
         list-style: none;
+
+        @media (max-width: 750px) {
+          margin-left: 50px;
+        }
       }
 
       ul.list {
@@ -272,8 +435,14 @@ export const Wrapper = styled.div`
         }
       }
 
+      /* ---------------------------------- Wrapper -> Left side -> widget ----------------------------------------------- */
+
       .widget {
         margin-top: 20px;
+
+        @media (max-width: 750px) {
+          display: none;
+        }
 
         strong {
           font-weight: normal;
@@ -288,6 +457,8 @@ export const Wrapper = styled.div`
           }
         }
       }
+
+      /* ---------------------------------- Wrapper -> Left side -> Followers ----------------------------------------------- */
 
       .followers ul {
         list-style: none;
@@ -332,15 +503,22 @@ export const Wrapper = styled.div`
       }
     }
 
+    /* ---------------------------------- Wrapper -> Center ----------------------------------------------- */
+
     .timeline {
       flex: 1;
       background: #fff;
       margin: 10px 20px 0;
 
+      @media (max-width: 380px) {
+        display: none;
+      }
+
       nav {
         border-bottom: 1px solid #e6ecf0;
         /* vertical -> horizontal */
         padding: 11px 15px;
+        text-align: center;
 
         a {
           text-decoration: none;
@@ -348,6 +526,14 @@ export const Wrapper = styled.div`
           font-size: 18px;
           font-weight: bold;
           margin-left: 20px;
+
+          @media (max-width: 450px) {
+            font-size: 15px;
+          }
+
+          @media (max-width: 400px) {
+            font-size: 12px;
+          }
         }
 
         a:first-child {
@@ -359,6 +545,8 @@ export const Wrapper = styled.div`
         }
       }
     }
+
+    /* ---------------------------------- Wrapper -> Center -> Tweets ----------------------------------------------- */
 
     ul.tweets {
       list-style: none;
@@ -377,10 +565,30 @@ export const Wrapper = styled.div`
             font-size: 14px;
             color: #1f2326;
 
+            @media (max-width: 450px) {
+              font-size: 13px;
+            }
+
+            @media (max-width: 400px) {
+              font-size: 12px;
+            }
+
             span {
               font-weight: normal;
               font-size: 13px;
               color: #7b8b9a;
+
+              @media (max-width: 1150px) {
+                font-size: 12px;
+              }
+
+              @media (max-width: 450px) {
+                font-size: 11px;
+              }
+
+              @media (max-width: 400px) {
+                font-size: 10px;
+              }
             }
           }
 
@@ -388,8 +596,22 @@ export const Wrapper = styled.div`
             font-size: 14px;
             color: #1f2326;
             margin-top: 5px;
+
+            @media (max-width: 1200px) {
+              font-size: 13px;
+            }
+
+            @media (max-width: 450px) {
+              font-size: 12px;
+            }
+
+            @media (max-width: 400px) {
+              font-size: 11px;
+            }
           }
         }
+
+        /* ---------------------------------- Wrapper -> Center -> Tweets -> Actions ----------------------------------------------- */
 
         .actions {
           display: flex;
@@ -422,8 +644,19 @@ export const Wrapper = styled.div`
       }
     }
 
+    /* ---------------------------------- Wrapper -> Right side ----------------------------------------------- */
+
     aside.widgets {
       width: 290px;
+
+      @media (max-width: 1200px) {
+        width: 245px;
+      }
+
+      @media (max-width: 1000px) {
+        width: 0;
+        display: none;
+      }
 
       .widget {
         padding: 15px;
@@ -436,6 +669,9 @@ export const Wrapper = styled.div`
           strong {
             font-size: 18px;
             color: #1f2226;
+            @media (max-width: 1200px) {
+              font-size: 17px;
+            }
           }
 
           a {
@@ -444,6 +680,10 @@ export const Wrapper = styled.div`
             text-decoration: none; /* remover o underline de links */
             position: relative;
             padding-left: 10px;
+
+            @media (max-width: 1200px) {
+              font-size: 11px;
+            }
           }
 
           a::before {
@@ -460,8 +700,14 @@ export const Wrapper = styled.div`
         }
       }
 
+      /* ---------------------------------- Wrapper -> Right side -> Follow ----------------------------------------------- */
+
       .follow {
         background: #fff;
+
+        @media (max-width: 1000px) {
+          display: none;
+        }
 
         ul {
           list-style: none;
@@ -496,10 +742,16 @@ export const Wrapper = styled.div`
                   strong {
                     font-size: 14px;
                     color: #1f2326;
+                    @media (max-width: 1200px) {
+                      font-size: 12px;
+                    }
 
                     span {
                       font-weight: normal;
                       color: #a9a9a9;
+                      @media (max-width: 1200px) {
+                        font-size: 11px;
+                      }
                     }
                   }
                 }
@@ -566,6 +818,8 @@ export const Wrapper = styled.div`
         }
       }
 
+      /* ---------------------------------- Wrapper -> Right side -> Trends ----------------------------------------------- */
+
       .trends {
         background: #fff;
 
@@ -573,6 +827,10 @@ export const Wrapper = styled.div`
         flex-direction: column;
         align-items: baseline;
         margin-top: 10px;
+
+        @media (max-width: 1000px) {
+          display: none;
+        }
 
         .title {
           strong {
@@ -621,9 +879,15 @@ export const Wrapper = styled.div`
         }
       }
 
+      /* ---------------------------------- Wrapper -> Right side -> Links ----------------------------------------------- */
+
       .link {
         display: flex;
         flex-wrap: wrap;
+
+        @media (max-width: 1000px) {
+          display: none;
+        }
 
         span {
           color: #667581;

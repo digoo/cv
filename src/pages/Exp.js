@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -8,7 +9,6 @@ import white from '../assets/images/white.png';
 import comments from '../assets/images/comments.svg';
 import retweet from '../assets/images/retweet.svg';
 import like from '../assets/images/like.svg';
-import message2 from '../assets/images/message2.svg';
 
 export default function Express() {
   return (
@@ -63,17 +63,14 @@ export default function Express() {
                     - Geo localização e mapas
                   </p>
             <div className="actions">
-              <a href="/cv/">
+              <a href="#">
                 <img src={comments} alt="Comments" /> 3
               </a>
-              <a href="/cv/">
+              <a href="#">
                 <img src={retweet} alt="retweet" /> 4
               </a>
-              <a href="/cv/">
+              <a href="#">
                 <img src={like} alt="like" /> 5
-              </a>
-              <a href="/cv/">
-                <img src={message2} alt="message" /> 33
               </a>
             </div>
           </div>
@@ -113,17 +110,14 @@ export default function Express() {
                   of automation code on Gerrit platform. <br/>
                   </p>
             <div className="actions">
-              <a href="/cv/">
+              <a href="#">
                 <img src={comments} alt="Comments" /> 3
               </a>
-              <a href="/cv/">
+              <a href="#">
                 <img src={retweet} alt="retweet" /> 4
               </a>
-              <a href="/cv/">
+              <a href="#">
                 <img src={like} alt="like" /> 5
-              </a>
-              <a href="/cv/">
-                <img src={message2} alt="message" />
               </a>
             </div>
           </div>
@@ -146,17 +140,14 @@ export default function Express() {
                   where CBIO/BSCS were implemented from Fullstack to Customer projects.
                   </p>
             <div className="actions">
-              <a href="/cv/">
+              <a href="#">
                 <img src={comments} alt="Comments" /> 3
               </a>
-              <a href="/cv/">
+              <a href="#">
                 <img src={retweet} alt="retweet" /> 4
               </a>
-              <a href="/cv/">
+              <a href="#">
                 <img src={like} alt="like" /> 5
-              </a>
-              <a href="/cv/">
-                <img src={message2} alt="message" />
               </a>
             </div>
           </div>
@@ -180,17 +171,14 @@ export default function Express() {
                   efficiency and agility.
                   </p>
             <div className="actions">
-              <a href="/cv/">
+              <a href="#">
                 <img src={comments} alt="Comments" /> 3
               </a>
-              <a href="/cv/">
+              <a href="#">
                 <img src={retweet} alt="retweet" /> 4
               </a>
-              <a href="/cv/">
+              <a href="#">
                 <img src={like} alt="like" /> 5
-              </a>
-              <a href="/cv/">
-                <img src={message2} alt="message" />
               </a>
             </div>
           </div>

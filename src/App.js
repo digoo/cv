@@ -1,7 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-// import { Router } from 'react-router-dom';
-
-// import history from './services/history';
 import Routes from './routes';
 
 import GlobalStyle from './styles/global';
@@ -9,7 +7,6 @@ import GlobalStyle from './styles/global';
 import home from './assets/images/home.svg';
 import notification from './assets/images/notification.svg';
 import message from './assets/images/message.svg';
-// import logo from './assets/images/logo.svg';
 import logo from './assets/images/cat.svg';
 import avatarDigo from './assets/images/avatarDigo.jpg';
 import avatar from './assets/images/avatar.png';
@@ -49,19 +46,22 @@ export default function App() {
           <nav>
             <ul>
               <li>
-                <img src={home} alt="Home" /> Home
+                <img src={home} alt="Home" />
+                <p>Home</p>
               </li>
               <li>
-                <img src={notification} alt="Notifications" /> Notifications
+                <img src={notification} alt="Notifications" />
+                <p>Notifications</p>
               </li>
               <li>
-                <img src={message} alt="Messages" /> Messages
+                <img src={message} alt="Messages" />
+                <p>Messages</p>
               </li>
             </ul>
           </nav>
-          <img src={logo} alt="logo_twitter" />
+          <img className="center" src={logo} alt="logo_meowtter" />
           <div className="right-side">
-            <input type="text" placeholder="Search on Twitter" />
+            <input type="text" placeholder="Search on Meowtter" />
             <img src={aRodrigo} alt="Rodrigo Lopes" />
             <button type="button">Gurrhr</button>
           </div>
@@ -83,27 +83,27 @@ export default function App() {
               <span>About</span>
               <strong>Me</strong>
             </li>
-            <li>
+            <li className="other">
               <span>Gurrhrs</span>
               <strong>3654</strong>
             </li>
-            <li>
+            <li className="other">
               <span>Following</span>
               <strong>3387</strong>
             </li>
-            <li>
+            <li className="other">
               <span>Followers</span>
               <strong>2464</strong>
             </li>
-            <li>
+            <li className="other">
               <span>Favorites</span>
               <strong>345</strong>
             </li>
-            <li>
+            <li className="other">
               <span>Lists</span>
               <strong>1</strong>
             </li>
-            <li>
+            <li className="other">
               <span>Moments</span>
               <strong>0</strong>
             </li>
