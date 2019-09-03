@@ -169,7 +169,7 @@ export const Banner = styled.div`
   position: relative;
   /* z-index: -1; */
 
-  h1 {
+  h1.h1regular {
     color: #fff;
     position: absolute;
     right: 350px;
@@ -208,6 +208,19 @@ export const Banner = styled.div`
 
     @media (max-width: 650px) {
       display: none;
+    }
+  }
+
+  h1.h1onMobile {
+    display: none;
+
+    @media (max-width: 650px) {
+      display: flex;
+      color: #fff;
+      position: absolute;
+      right: 20px;
+      bottom: 190px;
+      font-size: 12px;
     }
   }
 

@@ -70,9 +70,12 @@ export default function App() {
       <Docked />
       <Banner>
         <img src={banner} alt="Banner" />
-        <h1>
+        <h1 className="h1regular">
           Este modelo de CV foi feito com as tecnologias: ReactJS, CSS
           (styled-component)
+        </h1>
+        <h1 className="h1onMobile">
+          Por favor use a versão desktop para visualizar todo conteúdo
         </h1>
       </Banner>
 
