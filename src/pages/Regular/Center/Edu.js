@@ -2,27 +2,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// import selfEmployed from '../assets/images/selfEmployed.png';
-// import ericsson from '../assets/images/Ericsson.png';
-import white from '../assets/images/white.png';
+import white from '../../../assets/images/white.png';
+import rocketseat from '../../../assets/images/rocketseat.jpg';
+import udemy from '../../../assets/images/udemy.png';
+import unip from '../../../assets/images/unip.png';
+import usp from '../../../assets/images/usp.jpg';
+import axis from '../../../assets/images/axis_school.svg';
+import saga from '../../../assets/images/saga.png';
+import istqb from '../../../assets/images/istqb.png';
 
-import comments from '../assets/images/comments.svg';
-import retweet from '../assets/images/retweet.svg';
-import like from '../assets/images/like.svg';
+import comments from '../../../assets/images/comments.svg';
+import retweet from '../../../assets/images/retweet.svg';
+import like from '../../../assets/images/like.svg';
 
-import rocketseat from '../assets/images/rocketseat.jpg';
-import udemy from '../assets/images/udemy.png';
-import unip from '../assets/images/unip.png';
-import usp from '../assets/images/usp.jpg';
-import axis from '../assets/images/axis_school.svg';
-import saga from '../assets/images/saga.png';
-import istqb from '../assets/images/istqb.png';
-
-export default function Express() {
+export default function Edu() {
   return (
     <section className="timeline">
       <nav>
-        <Link to="/cv/">Experiência</Link>
+        <Link to="/cv/experience">Experiência</Link>
         <Link to="/cv/education" className="active">
           Educação
         </Link>

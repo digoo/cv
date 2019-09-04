@@ -2,19 +2,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import selfEmployed from '../assets/images/selfEmployed.png';
-import ericsson from '../assets/images/Ericsson.png';
-import white from '../assets/images/white.png';
+import selfEmployed from '../../../assets/images/selfEmployed.png';
+import ericsson from '../../../assets/images/Ericsson.png';
+import white from '../../../assets/images/white.png';
 
-import comments from '../assets/images/comments.svg';
-import retweet from '../assets/images/retweet.svg';
-import like from '../assets/images/like.svg';
+import comments from '../../../assets/images/comments.svg';
+import retweet from '../../../assets/images/retweet.svg';
+import like from '../../../assets/images/like.svg';
 
-export default function Express() {
+export default function Exp() {
   return (
     <section className="timeline">
       <nav>
-        <Link to="/cv/" className="active">
+        <Link to="/cv/experience" className="active">
           Experiência
         </Link>
         <Link to="/cv/education">Educação</Link>
