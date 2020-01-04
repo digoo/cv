@@ -47,5 +47,5 @@ button {
 @-moz-document url-prefix() {
     html,body {scrollbar-width: none;
 }
-}
+} }
 `;

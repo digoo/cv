@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import BarMobile from '../../../components/Bar/BarMobile';
+
 // import selfEmployed from '../../../assets/images/selfEmployed.png';
 // import ericsson from '../assets/images/Ericsson.png';
 import white from '../../../assets/images/white.png';
@@ -12,29 +14,31 @@ import white from '../../../assets/images/white.png';
 
 export default function Port() {
   return (
-    <section className="timeline">
-      <nav>
-        <Link to="/cv/experience">Experiência</Link>
-        <Link to="/cv/education">Educação</Link>
-        <Link to="/cv/portfolio" className="active">
-          Portfólio
-        </Link>
-      </nav>
+    <>
+      <BarMobile tab="edu" />
+      <section className="timeline">
+        <nav>
+          <Link to="/cv/experience">Experiência</Link>
+          <Link to="/cv/education">Educação</Link>
+          <Link to="/cv/portfolio" className="active">
+            Portfólio
+          </Link>
+        </nav>
 
-      <ul className="tweets">
-        <li>
-          <img src={white} alt="" />
-          <div className="tweet">
-            <strong>
-              Em construção
-              <span>
-                {/* Jul 2019 - Presente - 2 meses
+        <ul className="tweets">
+          <li>
+            <img src={white} alt="" />
+            <div className="tweet">
+              <strong>
+                Em construção
+                <span>
+                  {/* Jul 2019 - Presente - 2 meses
                 <br />
                 Brazil */}
-              </span>
-            </strong>
-            {/* prettier-ignore */}
-            {/* <p>
+                </span>
+              </strong>
+              {/* prettier-ignore */}
+              {/* <p>
                     Criando Websites e Android/Iphone Apps com linguagem JavaScript avançado
                     (Node.js como back-end, ReactJS como front-end
                     e React-Native como mobile).
@@ -74,9 +78,10 @@ export default function Port() {
                 <img src={message2} alt="message" /> 33
               </a>
             </div> */}
-          </div>
-        </li>
-      </ul>
-    </section>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </>
   );
 }

@@ -1,11 +1,11 @@
 import React from 'react';
 import { MemoryRouter, Route } from 'react-router-dom';
 
-import Exp from './Center/Exp';
+import Exp from '../Regular/Center/Exp';
 import Info from './Left/Info';
 import Add from './Right/Add';
-import Edu from './Center/Edu';
-import Port from './Center/Port';
+import Edu from '../Regular/Center/Edu';
+import Port from '../Regular/Center/Port';
 
 export default function Routes() {
   return (

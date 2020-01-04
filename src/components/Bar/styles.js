@@ -10,6 +10,10 @@ export const BarM = styled.div`
   margin-top: -35px;
   padding: 0 10px;
 
+  @media (min-width: 451px) {
+    display: none;
+  }
+
   @media (max-width: 280px) {
     flex-direction: column;
     align-items: flex-end;

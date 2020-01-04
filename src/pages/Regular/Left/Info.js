@@ -12,18 +12,7 @@ import github from '../../../assets/images/github.svg';
 import born from '../../../assets/images/born.svg';
 import images from '../../../assets/images/images.svg';
 
-// import selfEmployed from './assets/images/selfEmployed.png';
-// import ericsson from './assets/images/Ericsson.png';
-// import white from './assets/images/white.png';
-
-// import comments from './assets/images/comments.svg';
-// import retweet from './assets/images/retweet.svg';
-// import like from './assets/images/like.svg';
-// import message2 from './assets/images/message2.svg';
-
 import followers from '../../../assets/images/followers.svg';
-
-// import { Docked, Header, Banner, Bar, Wrapper } from '../../../styles';
 
 export default function Info() {
   return (
