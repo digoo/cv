@@ -1,16 +1,14 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 import BarMobile from '../../../components/Bar/BarMobile';
 
-// import selfEmployed from '../../../assets/images/selfEmployed.png';
-// import ericsson from '../assets/images/Ericsson.png';
 import white from '../../../assets/images/white.png';
-
-// import comments from '../../../assets/images/comments.svg';
-// import retweet from '../../../assets/images/retweet.svg';
-// import like from '../../../assets/images/like.svg';
-// import message2 from '../../../assets/images/message2.svg';
+import comments from '../../../assets/images/comments.svg';
+import retweet from '../../../assets/images/retweet.svg';
+import like from '../../../assets/images/like.svg';
+import message2 from '../../../assets/images/message2.svg';
 
 export default function Port() {
   return (
@@ -18,8 +16,8 @@ export default function Port() {
       <BarMobile tab="edu" />
       <section className="timeline">
         <nav>
-          <Link to="/cv/experience">Experiência</Link>
-          <Link to="/cv/education">Educação</Link>
+          <Link to="/cv/experience">Work experience</Link>
+          <Link to="/cv/education">Education</Link>
           <Link to="/cv/portfolio" className="active">
             Portfólio
           </Link>
@@ -30,54 +28,163 @@ export default function Port() {
             <img src={white} alt="" />
             <div className="tweet">
               <strong>
-                Em construção
+                <a
+                  href="https://github.com/digoo/Introduction-to-NodeJS"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Introduction To NodeJS
+                </a>
                 <span>
-                  {/* Jul 2019 - Presente - 2 meses
-                <br />
-                Brazil */}
+                  {' '}
+                  <br />
+                  NodeJS - Express
                 </span>
               </strong>
               {/* prettier-ignore */}
-              {/* <p>
-                    Criando Websites e Android/Iphone Apps com linguagem JavaScript avançado
-                    (Node.js como back-end, ReactJS como front-end
-                    e React-Native como mobile).
-                    <br/>
-                    <br/>
-                    Além disso usando:<br/><br/>
-                    - Git<br/>
-                    - Github<br/>
-                    - Kubernetes<br/>
-                    - Docker/Container<br/>
-                    - Jenkins<br/>
-                    - Npm<br/>
-                    - Yarn<br/>
-                    - CSS<br/>
-                    - CSS flexbox<br/>
-                    - SSR<br/>
-                    - Flux<br/>
-                    - React-hooks<br/>
-                    - AdonisJS<br/>
-                    - SaaS<br/>
-                    - Server-side rendering<br/>
-                    - Ui-Proto<br/>
-                    - Metodos de pagamento com Node.js<br/>
-                    - Geo localização e mapas
+              <p>
+              Modulo 01 from bootcamp from rocketseat.com.br<br /><br />
+
+With this module I learned about:<br /><br />
+
+Node JS -&gt; Express JS -&gt;<br /><br />
+
+create a CRUD (Create, read, update(put) and delete)<br /><br />
+
+Create middlewares with use function<br /><br />
+
+    using default middleware (server.use(function() or command))<br />
+    using middleware as parameter of a method<br /><br />
+
+JSON as default protocol<br /><br />
+
+route &gt; route params &gt; query params<br /><br />
+
+Manipulate an array and an array object in real time with http methods (POST, GET, PUT, DELETE)<br /><br />
+
+Learned about common HTTP code 1xx(Informational), 2xx(Success), 3xx(Redirection), 4xx(Client error), 5xx(Server error) 200: success 201: created 301: moved perm 302: moved 400: bad request 401: unauth 404: not found 500: internal server error<br /><br />
                   </p>
-            <div className="actions">
-              <a href="/">
-                <img src={comments} alt="Comments" /> 3
-              </a>
-              <a href="/">
-                <img src={retweet} alt="retweet" /> 4
-              </a>
-              <a href="/">
-                <img src={like} alt="like" /> 5
-              </a>
-              <a href="/">
-                <img src={message2} alt="message" /> 33
-              </a>
-            </div> */}
+              <div className="actions">
+                <a href="#">
+                  <img src={comments} alt="Comments" /> 23
+                </a>
+                <a href="#">
+                  <img src={retweet} alt="retweet" /> 12
+                </a>
+                <a href="#">
+                  <img src={like} alt="like" /> +999
+                </a>
+                <a href="#">
+                  <img src={message2} alt="message" /> 33
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src={white} alt="" />
+            <div className="tweet">
+              <strong>
+                <a
+                  href="https://github.com/digoo/Introduction-to-ReactJS"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Introduction To ReactJS
+                </a>
+                <span>
+                  {' '}
+                  <br />
+                  Babel - Webpack - React - React-dom - prop-types
+                </span>
+              </strong>
+              {/* prettier-ignore */}
+              <p>Module 04 - Introduction to ReactJS
+              </p>
+              <div className="actions">
+                <a href="#">
+                  <img src={comments} alt="Comments" /> 23
+                </a>
+                <a href="#">
+                  <img src={retweet} alt="retweet" /> 12
+                </a>
+                <a href="#">
+                  <img src={like} alt="like" /> +999
+                </a>
+                <a href="#">
+                  <img src={message2} alt="message" /> 33
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src={white} alt="" />
+            <div className="tweet">
+              <strong>
+                <a
+                  href="https://github.com/digoo/Introduction-to-ReactJS-Challenge"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Introduction To ReactJS - Challenge
+                </a>
+                <span>
+                  {' '}
+                  <br />
+                  Babel - Webpack - React - React-dom - prop-types - Figma
+                </span>
+              </strong>
+              {/* prettier-ignore */}
+              <p>Module 04 - Challenge - Create an interface like facebook based on a sketch file</p>
+              <div className="actions">
+                <a href="#">
+                  <img src={comments} alt="Comments" /> 23
+                </a>
+                <a href="#">
+                  <img src={retweet} alt="retweet" /> 12
+                </a>
+                <a href="#">
+                  <img src={like} alt="like" /> +999
+                </a>
+                <a href="#">
+                  <img src={message2} alt="message" /> 33
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src={white} alt="" />
+            <div className="tweet">
+              <strong>
+                <a
+                  href="https://github.com/digoo/Introduction-to-React-Native"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Introduction To React-Native
+                </a>
+                <span>
+                  {' '}
+                  <br />
+                  React-Native (Libraries) - prop-types - jetifier -
+                  Async-Storage - axios - Babel - eslint
+                </span>
+              </strong>
+              {/* prettier-ignore */}
+              <p>Simple introduction to react-native, navigation through pages, holding information, etc</p>
+              <div className="actions">
+                <a href="#">
+                  <img src={comments} alt="Comments" /> 23
+                </a>
+                <a href="#">
+                  <img src={retweet} alt="retweet" /> 12
+                </a>
+                <a href="#">
+                  <img src={like} alt="like" /> +999
+                </a>
+                <a href="#">
+                  <img src={message2} alt="message" /> 33
+                </a>
+              </div>
             </div>
           </li>
         </ul>

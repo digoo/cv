@@ -594,6 +594,12 @@ export const Wrapper = styled.div`
         padding: 11px 15px;
         display: flex;
 
+        img {
+          width: 48px;
+          height: 48px;
+          border-radius: 50%;
+        }
+
         .tweet {
           margin-left: 10px;
           display: flex;
@@ -609,6 +615,11 @@ export const Wrapper = styled.div`
 
             @media (max-width: 400px) {
               font-size: 12px;
+            }
+
+            a {
+              text-decoration: none;
+              color: #1f2326;
             }
 
             span {
@@ -666,6 +677,8 @@ export const Wrapper = styled.div`
 
             img {
               margin-right: 5px;
+              width: 16px;
+              height: 16px;
             }
           }
 
@@ -673,12 +686,6 @@ export const Wrapper = styled.div`
             margin-left: 0;
           }
         }
-      }
-
-      li > img {
-        width: 48px;
-        height: 48px;
-        border-radius: 50%;
       }
     }
 
@@ -1250,6 +1257,16 @@ export const Wrapper = styled.div`
         padding: 11px 15px;
         display: flex;
 
+        img {
+          width: 48px;
+          height: 48px;
+          border-radius: 50%;
+
+          @media (max-width: 240px) {
+            display: none;
+          }
+        }
+
         .tweet {
           margin-left: 10px;
           display: flex;
@@ -1269,6 +1286,11 @@ export const Wrapper = styled.div`
 
             @media (max-width: 200px) {
               font-size: 11px;
+            }
+
+            a {
+              text-decoration: none;
+              color: #1f2326;
             }
 
             span {
@@ -1333,23 +1355,16 @@ export const Wrapper = styled.div`
             margin-left: 30px;
 
             img {
+              display: flex;
               margin-right: 5px;
+              width: 16px;
+              height: 16px;
             }
           }
 
           a:first-child {
             margin-left: 0;
           }
-        }
-      }
-
-      li > img {
-        width: 48px;
-        height: 48px;
-        border-radius: 50%;
-
-        @media (max-width: 240px) {
-          display: none;
         }
       }
     }

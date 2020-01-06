@@ -55,8 +55,8 @@ export default function App() {
           <Banner>
             <img src={banner} alt="Banner" />
             <h1>
-              Este modelo de CV foi feito com as tecnologias: ReactJS, CSS
-              (styled-component) & Media queries
+              This CV was made with tecnologies: ReactJS, CSS (styled-component)
+              and Media queries
             </h1>
           </Banner>
 

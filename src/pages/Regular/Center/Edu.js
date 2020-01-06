@@ -23,30 +23,43 @@ export default function Edu() {
       <BarMobile tab="edu" />
       <section className="timeline">
         <nav>
-          <Link to="/cv/experience">Experiência</Link>
+          <Link to="/cv/experience">Work experience</Link>
           <Link to="/cv/education" className="active">
-            Educação
+            Education
           </Link>
           <Link to="/cv/portfolio">Portfólio</Link>
         </nav>
 
         <ul className="tweets">
           <li>
-            <img src={rocketseat} alt="Rocketseat" />
+            <a
+              href="https://rocketseat.com.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={rocketseat} alt="Rocketseat" />
+            </a>
             <div className="tweet">
               <strong>
-                Rocketseat
+                <a
+                  href="https://rocketseat.com.br/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Rocketseat
+                </a>
                 <span>
                   {' '}
                   <br />
-                  Melhoramento Pessoal - Tecnologia da Informação
+                  Self-improvement - Information Technology
                   <br />
-                  Jun 2019 - Presente
+                  Jun 2019 - Present
                 </span>
               </strong>
               {/* prettier-ignore */}
               <p>
-            Aprendendo JavaScript (Node.js, ReactJS, React-Native, Flux, React Hooks ) - CSS com Flexbox, SSR com ReactJS, Proto UI, Animação com ReactNative, metodo de pagamento com Node.js, Geo e Mapas, Kubernetes, OmniStack SaaS, AdonisJS, Offline-First, Testes, Testes automatizados.
+              Learning JavaScript (Node.js, ReactJS, React-Native, Flux, React Hooks ) <br/><br/>
+              - CSS with Flexbox, SSR with ReactJS, Proto UI, Animation with RN, Payment Methods with Node.js, Geo and Maps, Kubernetes, OmniStack SaaS, AdonisJS, Offline-First, Testing, Automated Tests.
                   </p>
               <div className="actions">
                 <a href="#">
@@ -63,10 +76,23 @@ export default function Edu() {
           </li>
 
           <li>
-            <img src={udemy} alt="Udemy" />
+            <a
+              href="https://www.udemy.com/course/java-the-complete-java-developer-course/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={udemy} alt="Udemy" />
+            </a>
             <div className="tweet">
               <strong>
-                Udemy alumni <br />
+                <a
+                  href="https://www.udemy.com/course/java-the-complete-java-developer-course/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Udemy
+                </a>{' '}
+                <br />
                 <span>
                   {' '}
                   Self-improvement - Self-Awareness and Personal Assessment{' '}
@@ -75,7 +101,7 @@ export default function Edu() {
                 </span>
               </strong>
               {/* prettier-ignore */}
-              <p>Learning Java at Udemy from basic to expert.Learning Java at Udemy from basic to expert.</p>
+              <p>Learning Java at Udemy from basic to expert.</p>
               <div className="actions">
                 <a href="#">
                   <img src={comments} alt="Comments" /> 4
@@ -96,13 +122,12 @@ export default function Edu() {
                 Universidade Paulista <br />
                 <span>
                   {' '}
-                  Bacharel in Information System - Gestão de Sistemas de
-                  Informação <br />
+                  Bacharel in Information System <br />
                   2010 – 2013
                 </span>
               </strong>
               {/* prettier-ignore */}
-              <p>Bacharel em sistema de informação</p>
+              <p>Bacharel in Information System</p>
               <div className="actions">
                 <a href="#">
                   <img src={comments} alt="Comments" /> 1
@@ -123,13 +148,13 @@ export default function Edu() {
                 Universidade de São Paulo <br />
                 <span>
                   {' '}
-                  SDN/Cloud Computing - Computação Científica
+                  SDN/Cloud Computing
                   <br />
                   2014 – 2014
                 </span>
               </strong>
               {/* prettier-ignore */}
-              <p>Curso de melhoramento técnico com certificado</p>
+              <p>self-improving program.</p>
               <div className="actions">
                 <a href="#">
                   <img src={comments} alt="Comments" /> 1
@@ -156,10 +181,10 @@ export default function Edu() {
                 </span>
               </strong>
               {/* prettier-ignore */}
-              <p>3 cursos tecnicos foram feitos nesse periodo <br/>
-            1 - Modelagem de personagens com Maya <br/>
-            2 - Montagem de cenários com Unreal 4 <br/>
-            3 - Do zero ao avançado em Unreal</p>
+              <p>Three tecnical programs were made: <br/>
+            1 - Character model modeling with maya. <br/>
+            2 - Scenario modeling with Unreal 4. <br/>
+            3 - From zero to hero in Unreal 4.</p>
               <div className="actions">
                 <a href="#">
                   <img src={comments} alt="Comments" /> 3
@@ -186,7 +211,7 @@ export default function Edu() {
                 </span>
               </strong>
               {/* prettier-ignore */}
-              <p>Curso para iniciantes (photoshop, Maya, Unreal, etc)</p>
+              <p>From scratch program (photoshop, Maya, Unreal, etc)</p>
               <div className="actions">
                 <a href="#">
                   <img src={comments} alt="Comments" /> 2
@@ -209,11 +234,11 @@ export default function Edu() {
                   {' '}
                   ISTQB - International Software Testing Qualifications Board
                   <br />
-                  Emitido Set 2015 - Issued Sep 2015
+                  Issued Sep 2015
                 </span>
               </strong>
               {/* prettier-ignore */}
-              <p>Certificação internacional de tester, sem validade final</p>
+              <p>International tester certification, no expiry date.</p>
               <div className="actions">
                 <a href="#">
                   <img src={comments} alt="Comments" /> 2

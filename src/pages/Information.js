@@ -23,7 +23,7 @@ export default function Information() {
       <p>ReactJS, React-Native, Node.js</p>
       <ul className="list">
         <li>
-          <img src={place} alt="Place" /> São Paulo, Brazil
+          <img src={place} alt="Place" /> Montreal, Canada
         </li>
         <li>
           <img src={email} alt="email" />{' '}

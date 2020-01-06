@@ -19,9 +19,9 @@ export default function Exp() {
       <section className="timeline">
         <nav>
           <Link to="/cv/experience" className="active">
-            Experiência
+            Work experience
           </Link>
-          <Link to="/cv/education">Educação</Link>
+          <Link to="/cv/education">Education</Link>
           <Link to="/cv/portfolio">Portfólio</Link>
         </nav>
 
@@ -41,7 +41,7 @@ export default function Exp() {
               </strong>
               {/* prettier-ignore */}
               <p>
-                Creating Websites and Android/Iphone Apps with Advanced JavaScript language (Node.js as back-end, ReactJS as front-end and React-Native as mob
+                Creating Websites and Android/Iphone Apps with Advanced JavaScript language (Node.js as back-end, ReactJS as front-end and React-Native as mobile.
                 <br/>
                 <br/>
                 Also using:<br/><br/>
@@ -83,20 +83,20 @@ export default function Exp() {
               <strong>
                 Ericsson
                 <span>
-                  <br />8 Anos 4 meses
+                  <br />8 Years 4 months
                 </span>
               </strong>
               <p />
             </div>
           </li>
           <li>
-            <img src={white} alt="Branco" />
+            <img src={white} alt="White" />
             <div className="tweet">
               <strong>
                 QA Automation Developer/Engineer <br />
                 <span>
                   {' '}
-                  Dez 2012 – Abr 2019 Duração 6 anos 5 meses <br />
+                  Dec 2012 – Abr 2019 Duration 6 years 5 months <br />
                   São Paulo, Brazil
                 </span>
               </strong>
@@ -105,10 +105,10 @@ export default function Exp() {
                   Acting as coreloop driver on devops environment guaranteeing quality, performance and good
                   results, creating daily/weekly report for daily/weekly meeting. <br/>
                   <br/>
-                  In constant communication with sites around the world like as Campinas, São Jose dos Campos,
-                  Frankfurt, Chennai and so on.<br/>
+                  In constant communication with working sites around the world like as Campinas and
+                  São Jose dos Campos, in Brazil, Frankfurt, in Germany, Chennai, in India, and few others working sites.<br/>
                   <br/>
-                  Providing training, driving concepts, opening trouble reports (aka. problem note) and acting reviewer
+                  Providing training, driving concepts, opening trouble reports and acting as reviewer
                   of automation code on Gerrit platform. <br/>
                   </p>
               <div className="actions">
@@ -125,21 +125,21 @@ export default function Exp() {
             </div>
           </li>
           <li>
-            <img src={white} alt="Branco" />
+            <img src={white} alt="white" />
             <div className="tweet">
               <strong>
                 QA Tester Engineer <br />
                 <span>
                   {' '}
-                  Dez 2012 – Mar 2014 Duração 1 anos 4 meses <br />
-                  São Paulo
+                  Dec 2012 – Mar 2014 Duration 1 year 4 months <br />
+                  São Paulo, Brazil
                 </span>
               </strong>
               {/* prettier-ignore */}
               <p>
-                  Working with different agile teams and performing unit test, integration test, e2e test and
-                  automated test on CBIO/BSCS interface (C++, C#, java, Python) for all project around the world
-                  where CBIO/BSCS were implemented from Fullstack to Customer projects.
+              Working with different agile teams and performing integration test, e2e test and automation test
+              on CBIO/BSCS interface (on the following languages: C++, C#, java, Python) where CBIO/BSCS
+              were implemented from Fullstack to Customer projects around the world.
                   </p>
               <div className="actions">
                 <a href="#">
@@ -155,22 +155,24 @@ export default function Exp() {
             </div>
           </li>
           <li>
-            <img src={white} alt="Branco" />
+            <img src={white} alt="White" />
             <div className="tweet">
               <strong>
                 Trainee <br />
                 <span>
                   {' '}
-                  Jan 2011 – Dec 2012 Duração 2 anos <br />
-                  São Paulo e Região, Brasil
+                  Jan 2011 – Dec 2012 Duration 2 years <br />
+                  São Paulo, Brazil
                 </span>
               </strong>
               {/* prettier-ignore */}
               <p>
-                  To make the difference, above all. empower the project with my knowledge to improve the time slice
-                  against the clock and the major requests of the managers. To Test the given releases with most
-                  powerful software of the market and give maintenance when necessary to all customer releases with
-                  efficiency and agility.
+                  To make the difference, above all. <br/><br/>
+                  Worked with different billing softwares on different areas over Ericsson in Brazil. <br/>
+                  Tested given releases with most powerful software of the market and give
+                  maintenance when necessary to all customer releases with efficiency and agility.<br/>
+                  Empowering the project with my knowledge to improve the time slice
+                  against the clock and the major requests of the managers.
                   </p>
               <div className="actions">
                 <a href="#">
