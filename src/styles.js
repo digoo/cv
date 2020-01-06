@@ -355,11 +355,7 @@ export const Wrapper = styled.div`
       display: none;
     }
 
-    /* @media (max-width: 380px) {
-    } */
-
     /* ---------------------------------- Wrapper -> Left side ----------------------------------------------- */
-
     aside.profile {
       width: 260px;
 
@@ -512,6 +508,8 @@ export const Wrapper = styled.div`
         }
       }
 
+      /* ---------------------------------- Wrapper -> Left side -> images ----------------------------------------------- */
+
       .images ul {
         list-style: none;
         display: flex;
@@ -526,6 +524,19 @@ export const Wrapper = styled.div`
           border-radius: 2px;
           flex: 1 0 auto;
           margin: 0 5px 5px 0;
+        }
+
+        img {
+          width: 80px;
+          height: 80px;
+          border-radius: 2px;
+          flex: 1 0 auto;
+          margin: 0 5px 5px 0;
+        }
+      }
+      div.final {
+        @media (max-width: 750px) {
+          margin-top: 30px;
         }
       }
     }
@@ -803,13 +814,22 @@ export const Wrapper = styled.div`
 
                   transition: background 0.4s;
 
+                  a {
+                    text-decoration: none;
+                    color: #3bb9e3;
+                  }
+
                   &:hover {
                     background: ${darken(0.09, '#fff')};
                   }
-                }
-              }
-            }
-          }
+
+                  &:active {
+                    background: ${darken(0.18, '#fff')};
+                  } /** &:active { */
+                } /** button { */
+              } /** .info { */
+            } /** .profile { */
+          } /** li { */
 
           li > a {
             text-decoration: none;
@@ -835,15 +855,20 @@ export const Wrapper = styled.div`
                 font-size: 13px;
                 color: #3bb9e3;
                 margin-left: 6px;
+
+                a {
+                  text-decoration: none;
+                  color: #3bb9e3;
+                }
               }
 
               img {
                 filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
-              }
-            }
-          }
-        }
-      }
+              } /* img */
+            } /* .addfriend */
+          } /* li.addFriends */
+        } /* ul */
+      } /* .follow */
 
       /* ---------------------------------- Wrapper -> Right side -> Trends ----------------------------------------------- */
 
@@ -1151,6 +1176,9 @@ export const Wrapper = styled.div`
           margin: 0 5px 5px 0;
         }
       }
+      div.final {
+        margin-top: 50px;
+      }
     }
 
     /* ---------------------------------- Wrapper Mobile -> Center ----------------------------------------------- */
@@ -1432,7 +1460,6 @@ export const Wrapper = styled.div`
                   text-decoration: none;
 
                   strong {
-                    /* font-size: 14px; */
                     color: #1f2326;
                     font-size: 12px;
 
@@ -1472,14 +1499,23 @@ export const Wrapper = styled.div`
 
                   transition: background 0.4s;
 
+                  a {
+                    text-decoration: none;
+                    color: #3bb9e3;
+                  }
+
                   &:hover {
                     background: ${darken(0.09, '#fff')};
                   }
 
-                  @media (max-width: 260px) {
-                    height: 23px;
-                    width: 60px;
-                    font-size: 12px;
+                  &:active {
+                    background: ${darken(0.18, '#fff')};
+
+                    @media (max-width: 260px) {
+                      height: 23px;
+                      width: 60px;
+                      font-size: 12px;
+                    }
                   }
                 }
               }
@@ -1499,7 +1535,6 @@ export const Wrapper = styled.div`
           }
 
           li.addFriends {
-            /*  */
             .addfriend {
               display: flex;
               align-items: center;
@@ -1510,6 +1545,11 @@ export const Wrapper = styled.div`
                 font-size: 13px;
                 color: #3bb9e3;
                 margin-left: 6px;
+
+                a {
+                  text-decoration: none;
+                  color: #3bb9e3;
+                }
               }
 
               img {
