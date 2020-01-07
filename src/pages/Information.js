@@ -13,6 +13,10 @@ import born from '../assets/images/born.svg';
 import images from '../assets/images/images.svg';
 import fb from '../assets/images/fb.svg';
 import followers from '../assets/images/followers.svg';
+import download from '../assets/images/download.svg';
+
+import docxCV from '../assets/documents/RodrigoLopesCV.docx';
+import pdfCV from '../assets/documents/RodrigoLopesCV.pdf';
 
 export default function Information() {
   return (
@@ -80,6 +84,17 @@ export default function Information() {
             rel="noopener noreferrer"
           >
             Source code
+          </a>
+        </li>
+        <li>
+          <img src={download} alt="Download" />
+          Download my CV:&nbsp;
+          <a href={pdfCV} target="_blank" rel="noopener noreferrer">
+            pdf
+          </a>
+          &nbsp;-&nbsp;
+          <a href={docxCV} target="_blank" rel="noopener noreferrer">
+            docx
           </a>
         </li>
       </ul>

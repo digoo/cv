@@ -22,7 +22,7 @@ export default function Exp() {
             Work experience
           </Link>
           <Link to="/cv/education">Education</Link>
-          <Link to="/cv/portfolio">Portfólio</Link>
+          <Link to="/cv/portfolio">Portfolio</Link>
         </nav>
 
         <ul className="tweets">

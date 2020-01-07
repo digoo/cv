@@ -27,7 +27,7 @@ export default function Edu() {
           <Link to="/cv/education" className="active">
             Education
           </Link>
-          <Link to="/cv/portfolio">Portfólio</Link>
+          <Link to="/cv/portfolio">Portfolio</Link>
         </nav>
 
         <ul className="tweets">

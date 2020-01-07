@@ -19,7 +19,7 @@ export default function Port() {
           <Link to="/cv/experience">Work experience</Link>
           <Link to="/cv/education">Education</Link>
           <Link to="/cv/portfolio" className="active">
-            Portfólio
+            Portfolio
           </Link>
         </nav>
 
