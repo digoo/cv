@@ -1,23 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a66c500a2d09f2546fdedc86e3877609",
+    "revision": "287243c5a918273812c9e1f13440fec0",
     "url": "/cv/index.html"
   },
   {
-    "revision": "2406c3455b695d53b324",
-    "url": "/cv/static/js/2.a190f270.chunk.js"
+    "revision": "5b7b591c3c6fdb46f8b2",
+    "url": "/cv/static/js/2.fce4371a.chunk.js"
   },
   {
-    "revision": "164285501c94c4d839e6",
-    "url": "/cv/static/js/main.6e22129c.chunk.js"
+    "revision": "023c1009e35450bdfbfb",
+    "url": "/cv/static/js/main.bd60ac67.chunk.js"
   },
   {
-    "revision": "9de11688f3f3e719fc9b",
-    "url": "/cv/static/js/runtime~main.2485d320.js"
+    "revision": "7d5d8937d83e99b0ae10",
+    "url": "/cv/static/js/runtime~main.316217a7.js"
   },
   {
     "revision": "ded805e44ca0aeffb0cc60cd107ef77d",
     "url": "/cv/static/media/Banner.ded805e4.jpg"
+  },
+  {
+    "revision": "080238e7d8e8750d3df2b441fe92dbad",
+    "url": "/cv/static/media/RodrigoLopesCV.080238e7.docx"
+  },
+  {
+    "revision": "d4e3ea999f8d24c6a454dd059699a6d2",
+    "url": "/cv/static/media/RodrigoLopesCV.d4e3ea99.pdf"
   },
   {
     "revision": "0f276b9e3498adec37a8ab176b9c2848",
@@ -50,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3adaceb79afb3be809c4c924179bf296",
     "url": "/cv/static/media/comments.3adaceb7.svg"
+  },
+  {
+    "revision": "0246052ab2c31d230e14cd0d44a0a21c",
+    "url": "/cv/static/media/download.0246052a.svg"
   },
   {
     "revision": "309f3e45c9ebc9ab7e24655edbbe5e7d",
